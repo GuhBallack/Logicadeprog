@@ -1,0 +1,30 @@
+package Aulla03;
+
+import java.util.Scanner;
+
+public class Desafio02 {
+
+	public static void main(String[] args) {
+	
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite a nota do aluno: ");
+int nota = scanner.nextInt();
+		
+
+			if(nota >= 70) {
+				System.out.println("Aprovado");
+				
+			}
+
+			else {
+				System.out.println("Reprovado");
+		}
+			if(nota >= 90) {
+				System.out.println("Aprovado Parabens");
+			
+			}
+			scanner.close();
+		
+			}
+}
