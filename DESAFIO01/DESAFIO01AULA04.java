@@ -1,0 +1,38 @@
+package DESAFIO01;
+import java.util.Scanner;
+
+public class DESAFIO01AULA04 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite sua idade e seu batimento: ");
+		
+		int idade = scanner.nextInt();
+		
+		int batimento = scanner.nextInt();
+		
+		if ( idade > 60 && batimento > 150) {
+			System.out.println("URGENTE");
+			
+		}
+		
+		else if ( idade > 60 && batimento <= 150) {
+			System.out.println("Urgencia Moderada");
+			
+		}
+		
+		else if ( idade <= 60 && batimento > 150) {
+			System.out.println("Urgencia Moderada");
+			
+		}
+		
+		else if ( idade <= 60 && batimento <= 150) {
+			System.out.println("Não Urgente");
+			
+		}
+		
+	
+	}
+
+	}

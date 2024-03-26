@@ -1,0 +1,55 @@
+package DESAFIO02;
+
+import java.util.Scanner;
+
+public class Ex3DiasdaSemana {
+
+	public static void main(String[] args) {
+		try (Scanner scanner = new Scanner(System.in)) {
+			System.out.println("Digite um numero de 1 a 7: ");
+			int numero = scanner.nextInt();
+			
+			String diaSemana;
+			
+			switch (numero) {
+				case 1:
+					diaSemana = "Domingo - Final de Semana";
+					break;
+					
+				case 2:
+					diaSemana = "Segunda - Dia Util";
+					break;
+					
+				case 3:
+					diaSemana = "Terça - Dia Util";
+					break;
+					
+				case 4:
+					diaSemana = "Quarta - Dia Util";
+					break;
+				
+				case 5:
+					diaSemana = "Quinta - Dia Util";
+					break;
+					
+				case 6:
+					diaSemana = "Sexta - Dia Util";
+					break;
+					
+				case 7:
+					diaSemana = "Sabado - Final de Semana";
+					break;
+				
+				default:
+					diaSemana = "Dia Invalido";
+					break;		
+			}
+			
+			System.out.println("O dia da semana que corresponde ao numero " + numero + " é " + diaSemana);
+		}
+
+	}
+
+	}
+
+
