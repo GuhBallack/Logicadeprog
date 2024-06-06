@@ -1,0 +1,21 @@
+header {
+  background-color: #8234e9;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #f23aa1;
+  color: #fff;
+}
